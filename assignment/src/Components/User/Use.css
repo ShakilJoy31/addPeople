@@ -1,0 +1,38 @@
+.remove-border:focus{
+    outline: none;
+}
+.show-age{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 19px;
+}
+.table-data:hover{
+    cursor: pointer;
+}
+.my-label{
+    font-size: 18px;
+}
+.add-people{
+    font-size: 37px;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -100px;
+}
+
+.moving-para{
+    transform: translateX(100%);
+    animation: moving 15s linear infinite;
+  }
+  @keyframes moving {
+    0%{
+        transform: translateX(100%);
+    }
+    
+    100%{
+        transform: translateX(-50%);
+    }
+  }
